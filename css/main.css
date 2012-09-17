@@ -95,10 +95,19 @@ textarea {
 
 #upper-menu{position: absolute;background: red;width: 100%;position: fixed;}
 ul{margin:0px;}
-#upper-menu ul li{display: inline;margin:0px;}
+#upper-menu ul li{display: inline;margin:0px;list-style-type: none;}
+
 #content{margin:0px 0px 0px 0px;}
 #fotos{height:575px;}
-#galeria{position: relative;top:200px;}
+#calendario{height: 300px;}
+#calendario ul li{display: inline;margin:0px;list-style-type: none;}
+#calendario ul li {
+    background: none repeat scroll 0 0 #F7F7F7;
+    display: inline;
+    float: left;
+    margin: 0 10px 0 0;
+    width: 170px;
+}
 
 
 #widget_title
@@ -133,7 +142,7 @@ ul{margin:0px;}
 
 #counter
 {
-	position: absolute;
+	
 	left: 425px;
 	top: 13px;
 	font-size: 13px;
@@ -155,7 +164,29 @@ ul{margin:0px;}
 
 
 
-
+ ul#galery{
+				list-style: none;
+				padding: 0;
+				margin: 0 auto;
+				width: 42em;
+				height: 28em;
+}
+#galery li {
+				height: 24em;
+				width: 24em;
+				text-align: center;
+				cursor: pointer;
+}
+#galery li img {
+					width: 100%;
+}
+#galery li.roundabout-in-focus {
+					cursor: default;
+}
+#galery li span {
+				display: block;
+				padding-top: 6em;
+}
 
 
 
