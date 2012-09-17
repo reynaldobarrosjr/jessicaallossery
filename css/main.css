@@ -101,7 +101,56 @@ ul{margin:0px;}
 #galeria{position: relative;top:200px;}
 
 
+/* last-twitts */
 
+#widget_title
+{
+	width: 442px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-left: 10px;
+	font-size: 15px;
+	text-align: left;
+	background-color: #6F7986;
+	color: #FFF;
+}
+
+#container
+{
+	display: block;
+	overflow: hidden;
+	background: url('../assets/ajax-loader.gif') no-repeat center center;
+	text-align: center;
+	width: 430px;
+	height: 48px;
+	border-left: 1px dotted #CCC;
+	border-right: 1px dotted #CCC;
+	border-bottom: 1px dotted #CCC;
+	padding: 10px;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+
+#counter
+{
+	position: absolute;
+	left: 425px;
+	top: 13px;
+	font-size: 13px;
+	color: #FFF;
+}
+
+#holder
+{
+	position: relative;
+}
+
+#tweets
+{
+	font-size: 12px;
+}
 
 
 
