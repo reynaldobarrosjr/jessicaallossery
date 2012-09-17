@@ -97,6 +97,8 @@ textarea {
 ul{margin:0px;}
 #upper-menu ul li{display: inline;margin:0px;}
 #content{margin:0px 0px 0px 0px;}
+#fotos{height:575px;}
+#galeria{position: relative;top:200px;}
 
 
 
