@@ -23,7 +23,7 @@
    		});
 		</script>
     </head>
-    <body>
+    <body onload="loadTweets()">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
@@ -87,9 +87,14 @@
 			
 			
 			</div>
-        	<div id="twitter">
-        		Twitter Widget
-        	</div>
+        	<div id="widget_title"></div><div id="counter">ciao</div>
+				<div id="container">
+				<div id="holder">
+
+				<div id="tweets"></div>
+
+				</div>
+			</div>
         	<footer>
         		<ul>
         			<li><a href="#">Inicio</a></li>
@@ -118,5 +123,7 @@
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
+        <script src="js/last_tweets.js" type="text/javascript" charset="utf-8"></script>
+
     </body>
 </html>
