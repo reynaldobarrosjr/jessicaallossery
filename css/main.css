@@ -93,7 +93,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+#upper-menu{position: absolute;background: red;width: 100%;position: fixed;}
+ul{margin:0px;}
+#upper-menu ul li{display: inline;margin:0px;}
+#content{margin:0px 0px 0px 0px;}
 
 
 
