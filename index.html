@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.1.min.js"></script>
         <script src="js/vendor/jquery-1.8.0.min.js"></script>
+        <script src="js/jquery.bxSlider.min.js"></script>       
 		<script src="js/jquery.roundabout.min.js"></script>
 		<script>
    		$(document).ready(function() {
@@ -83,14 +84,32 @@
 			<div id="calendario">
 			
 				<h1>Pr&oacute;ximo Shows</h1>
-				
-				<ul>
-					<li><div class="evento">01<br>setembro<br>Rio de Janeiro<br>Brasil<br>Detalhes</div></li>
-					<li><div class="evento">01<br>setembro<br>Rio de Janeiro<br>Brasil<br>Detalhes</div></li>
-					<li><div class="evento">01<br>setembro<br>Rio de Janeiro<br>Brasil<br>Detalhes</div></li>
-
-				
+				<script type="text/javascript">
+(function($){	
+  $(function(){
+    $('#slider1').bxSlider({
+      displaySlideQty: 3,
+      moveSlideQty: 1
+    });
+  });	
+}(jQuery))
+</script>
+				<ul id="slider1" class="multiple">
+  					<li>
+  					  01<br>setembro<br>Rio de Janeiro<br>Brasil<br>Detalhes
+  					</li>
+  					<li>
+  					  01<br>setembro<br>Rio de Janeiro<br>Brasil<br>Detalhes
+  					</li>
+  					<li>
+  					 01<br>setembro<br>Rio de Janeiro<br>Brasil<br>Detalhes
+  					</li>
+  					<li>
+  					  01<br>setembro<br>Rio de Janeiro<br>Brasil<br>Detalhes
+  					</li>
 				</ul>
+				
+				
 			
 			</div>
 			
