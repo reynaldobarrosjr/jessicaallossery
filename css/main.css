@@ -21,6 +21,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    background: url(../img/background-wood.jpg) fixed;
 }
 
 /*
@@ -93,23 +94,174 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-#upper-menu{position: absolute;background: red;width: 100%;position: fixed;}
+#upper-menu {
+    background: url("../img/background-menu.png") no-repeat scroll center center transparent;
+    height: 239px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
 ul{margin:0px;}
-#upper-menu ul li{display: inline;margin:0px;list-style-type: none;}
+#upper-menu ul li {
+    display: inline;
+    height: 70px;
+    line-height: 70px;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 40px;
+    position: relative;
+    top: 89px;
+    z-index: 99999;
+}
+#bloco1{position: relative;float: left;}
+#bloco2{position: relative;float: right;margin-right: 10%;}
+#biografia {
+    background: url("../img/links-menu-principal.png") no-repeat scroll 0 -11px transparent;
+    height: 70px;
+    width: 205px;
+}
+#biografia a {
+    color: transparent;
+    padding: 40px;
+}
+
+#fotosevideos {
+  background-attachment:scroll;
+  background-clip:initial;
+  background-color:transparent;
+  background-image:url(http://localhost/jessicaallossery.com/img/links-menu-principal.png);
+  background-origin:initial;
+  background-position:-126px -7px;
+  background-repeat:no-repeat no-repeat;
+  height:70px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  width:30px;
+}
+#fotosevideos a {
+  color:transparent;
+  padding-bottom:40px;
+  padding-left:24px;
+  padding-right:0;
+  padding-top:40px;
+}
+
+#show {
+  background-attachment:scroll;
+  background-clip:initial;
+  background-color:transparent;
+  background-image:url(http://localhost/jessicaallossery.com/img/links-menu-principal.png);
+  background-origin:initial;
+  background-position:-246px -7px;
+  background-repeat:no-repeat no-repeat;
+  height:70px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  width:30px;
+}
+#show a {
+  color:transparent;
+  padding-bottom:40px;
+  padding-left:93px;
+  padding-right:0;
+  padding-top:40px;
+}
+
+#musicas {
+  background-attachment:scroll;
+  background-clip:initial;
+  background-color:transparent;
+  background-image:url(http://localhost/jessicaallossery.com/img/links-menu-principal.png);
+  background-origin:initial;
+  background-position:-486px -0px;
+  background-repeat:no-repeat no-repeat;
+  height:70px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  width:30px;
+}
+#musicas a {
+  color:transparent;
+  padding-bottom:40px;
+  padding-left:80px;
+  padding-right:0;
+  padding-top:40px;
+}
+#contato {
+  background-attachment:scroll;
+  background-clip:initial;
+  background-color:transparent;
+  background-image:url(http://localhost/jessicaallossery.com/img/links-menu-principal.png);
+  background-origin:initial;
+  background-position:-351px -0px;
+  background-repeat:no-repeat no-repeat;
+  height:70px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  width:30px;
+}
+#contato a {
+  color:transparent;
+  padding-bottom:40px;
+  padding-left:93px;
+  padding-right:0;
+  padding-top:40px;
+}
+
+#calendario{background: url(../img/background-shows.png) center no-repeat;height: 400px;padding-top:150px;margin-bottom:46px;}
+.data,.mes{color: #990033;font-size: 5.5em;text-align: center;}
+.data {
+  display:block;
+  line-height:1em;
+  margin-top:10px;
+}
+.mes{font-size: 2em;}
+.detalhes{color:#903;background: #000;padding: 3px;margin-bottom: 30px;margin-top: 30px;}
+.pdetalhes{margin-top: 0px;}
+
+
+
+
 
 #content{margin:0px 0px 0px 0px;}
-#fotos{height:575px;}
-#calendario{height: 300px;}
-#calendario ul li{display: inline;margin:0px;list-style-type: none;}
+#first_box{position:relative;background:url(../img/jessica-box-1.png);width: 100%;top: 145px;height: 700px; }
+#fotos{height:575px;background:url(../img/background-photos.png);}
+
+#calendario ul li{display: inline;list-style-type: none;text-align: center;height: 250px;}
 #calendario ul li {
     background: none repeat scroll 0 0 #F7F7F7;
     display: inline;
     float: left;
-    margin: 0 0 0 0;
-    width: 169px;
+    width: 235px;
+    position: relative;
+    left:-260px;
 }
-
-
+#slider1 ul li{background-color:red;} 
+#biografia-box{background:url(../img/background-biografia.png);height: 700px; padding: 30px;}
+#biografia-texto {
+    background: none repeat scroll 0 0 white;
+    float: right;
+    font-size:1em;
+    margin-right: 5%;
+    margin-left: 5%;
+    opacity: 0.73;
+    position: relative;
+    width: 55%;
+}
+#biografia-texto p{
+margin-left: auto;
+margin-right: auto;
+opacity: 1;
+position: relative;
+width: 95%;}
+h1#proximoshows {
+    background: url("../img/proximosshows.png") no-repeat scroll center center transparent;
+    float: right;
+    height: 100%;
+    position: relative;
+    text-indent: -9999px;
+    width: 463px;
+}
 #widget_title
 {
 	width: 442px;
@@ -130,14 +282,15 @@ ul{margin:0px;}
 	text-align: center;
 	width: 430px;
 	height: 48px;
-	border-left: 1px dotted #CCC;
-	border-right: 1px dotted #CCC;
-	border-bottom: 1px dotted #CCC;
+
 	padding: 10px;
 	cursor: pointer;
 	-moz-user-select: none;
 	-khtml-user-select: none;
 	user-select: none;
+	bottom:100px;
+	position: relative;
+	left: 410px;
 }
 
 #counter
@@ -213,12 +366,46 @@ ul{margin:0px;}
     width: 31px;
 }
 .bx-wrapper{position: relative;margin-left:auto;margin-right: auto;}
-.bx-child{width: 190px; float: left; list-style: none outside none;}
 
 
-
-
-
+footer {
+    background: url("../img/background-rodape.png") repeat scroll 0 0 transparent;
+    height: 156px;
+    margin-bottom: 0;
+    overflow: hidden;
+    position: relative;
+}
+footer ul li{display: inline;
+height: 70px;
+line-height: 70px;
+list-style-type: none;
+margin: 0;
+padding-top: 40px;
+position: relative;
+top: 89px;
+z-index: 99999;}
+footer span {
+    float: right;
+    margin-right: 35px;
+    position: relative;
+    top: 25px;
+}
+.sociallinks{background:url(../img/social-buttons.png) no-repeat; }
+#itunes {
+    background-position: 615px 16px;
+}
+#amazon {
+    background-position: -105px 16px;
+}
+#twitter {
+    background-position: -220px 16px;
+}
+#facebook {
+    background-position: -153px 16px;
+}
+#youtube {
+    background-position: -47px 16px;
+}
 
 /* ==========================================================================
    Helper classes

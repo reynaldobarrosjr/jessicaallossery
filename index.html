@@ -32,32 +32,40 @@
         <!-- Add your site or application content here -->
         <div id="upper-menu">
         	
-        	<ul>
-        		<li><a href="#">Inicio</a></li>
-        		<li><a href="#">Fotos e V&iacute;deos</a></li>
-        		<li><a href="#">Biografia</a></li>
-        		<li><a href="#">Show</a></li>
-        		<li><a href="#">M&uacute;sicas</a></li>
-        		<li><a href="#">Contato</a></li>
+        	<ul id="bloco1">
+        		<li id="biografia"><a href="#biografiajessica">Biografia</a></li>
+        		<li id="fotosevideos"><a href="#fotos">Fotos e V&iacute;deos</a></li>
+        		
+        		<li id="show"><a href="#shows">Show</a></li>
+        	</ul>
+        	<ul id="bloco2">
+        		<li id="musicas"><a href="#">M&uacute;sicas</a></li>
+        		<li id="contato"><a href="#">Contato</a></li>
         	</ul>
         </div>
         <div id="content">
-        	<div>
+        	<div id="first_box">
+        		<div>
         	
-        		<ul>
-        			<li><a href="#">Itunes</a></li>
-        			<li><a href="#">Amazon</a></li>
-        			<li><a href="#">Twitter</a></li>
-        			<li><a href="#">Facebook</a></li>
-        			<li><a href="#">YouTube</a></li>
-        			<li><a href="#">Store</a></li>
-        		</ul>
+        			<ul>
+        				<li><a href="#">Itunes</a></li>
+        				<li><a href="#">Amazon</a></li>
+        				<li><a href="#">Twitter</a></li>
+        				<li><a href="#">Facebook</a></li>
+        				<li><a href="#">YouTube</a></li>
+        				<li><a href="#">Store</a></li>
+        			</ul>
+        	
+        	
+        		</div>
+        	
         	
         	
         	</div>
+        	<div class="clearfix"></div>
         	<div id="fotos">
 			
-				<h1>Fotos e V&iacute;deos</h1>
+				<h1>Fotos e V&iacute;deos</h1><a name="fotos"></a>
 				
 				<ul id="galery">
 					<li><span><img src="img/jessica.png" alt="jessica" /></span></li>
@@ -70,20 +78,25 @@
 				
 					
 				</ul>
+				<a name="biografiajessica"></a>
 			</div>
         
-            <div id="biografia">
-            	<h1>Biografia</h1>
+            <div id="biografia-box">
+                  
+            	<div id="biografia-texto">
          		<p>A carreira musical de Jessica come&ccedil;ou em sua fazenda em Thamesville Ontario, come&ccedil;ando com o piano muito jovem com 6 anos de idade. Frequentou aulas toda semana na casa de seu vizinho, e passou seus ver&otilde;es vendendo milho doce para os moradores locais sobre a rodovia. Ela perdeu o interesse com o piano quando ela come&ccedil;ou a escola e estava convencido de que sua carreira musical estaria escondido no chuveiro, cantarolando baixo ou estradas de terra de idade. Ap&oacute;s o colegial, ela viveu no Brasil por um ano e conseguiu seu primeiro gosto de cantar na frente de uma audi&ecirc;ncia - em Portugu&ecirc;s para isso! Quando ela voltou para o Canad&aacute;, ela se matriculou na faculdade para seguir um novo sonho do cinema document&aacute;rio, para mostrar ao mundo o que viu atrav&eacute;s da lente de uma c&acirc;mera.</p>
 <p>Naquel		e setembro de 2008 mudou a sua vida! Ela n&atilde;o tinha televis&atilde;o em casa sozinha, ent&atilde;o a &uacute;nica coisa que tinha de ocupar seu tempo foi a internet e YouTube. Ela trope&ccedil;ou em covers de m&uacute;sicas e tornou-se inspirado para aprender a tocar guitarra sozinha. Ela era confort&aacute;vel por tr&aacute;s da guitarra, em nenhum momento, avan&ccedil;ou muito rapidamente e come&ccedil;ou a escrever suas pr&oacute;prias can&ccedil;&otilde;es apenas 4 meses depois.</p>
 				
 				<p>Recentemente, a can&ccedil;&atilde;o de Jessica &quot;Mudar o Mundo&quot; foi pego por campanha Telus 'mais novo an&uacute;ncio &quot;Damos Where We Live&quot;. O comercial est&aacute; no ar nacionalmente atrav&eacute;s de muitas redes de televis&atilde;o do Canad&aacute;.</p>
 				
 				<p>Letras de Jessica s&atilde;o graciosos, honesto e doce como a sua personalidade. Ela inspira centenas de pessoas todos os dias para seguir seus sonhos, e ajudar a tornar o mundo um lugar de esperan&ccedil;a para todos. Jessica pretende &quot;mudar o mundo&quot; atrav&eacute;s da m&uacute;sica e do cinema, e com gra&ccedil;a, suas melodias verdadeiras vai deixar voc&ecirc; se sentindo valorizados e inspirado.</p>
+				<a name="shows"></a>
+
+				</div>
 			</div>
 			<div id="calendario">
 			
-				<h1>Pr&oacute;ximo Shows</h1>
+<!-- 				<h1 id="proximoshows">Pr&oacute;ximos Shows</h1> -->
 				<script type="text/javascript">
 (function($){	
   $(function(){
@@ -96,16 +109,16 @@
 </script>
 				<ul id="slider1" class="multiple">
   					<li>
-  					  01<br>setembro<br>Rio de Janeiro<br>Brasil<br>Detalhes
+  					  <span class="data">01</span><span class="mes">outubro</span><p class="pdetalhes">Rio de Janeiro</br>Brasil</p><span class="detalhes">Detalhes</span>
   					</li>
   					<li>
-  					  01<br>setembro<br>Rio de Janeiro<br>Brasil<br>Detalhes
+  					  <span class="data">02</span><span class="mes">outubro</span><p class="pdetalhes">S&atilde;o Paulo</br>Brasil</p><span class="detalhes">Detalhes</span>
   					</li>
   					<li>
-  					 01<br>setembro<br>Rio de Janeiro<br>Brasil<br>Detalhes
+  					 <span class="data">03</span><span class="mes">outubro</span><p class="pdetalhes">Rio de Janeiro</br>Brasil</p><span class="detalhes">Detalhes</span>
   					</li>
   					<li>
-  					  01<br>setembro<br>Rio de Janeiro<br>Brasil<br>Detalhes
+  					  <span class="data">04</span><span class="mes">outubro</span><p class="pdetalhes">Rio de Janeiro</br>Brasil</p><span class="detalhes">Detalhes</span>
   					</li>
 				</ul>
 				
@@ -113,12 +126,21 @@
 			
 			</div>
 			
-			<div id="fans">
-				<h1>My Fans</h1>
 			
-			
-			</div>
-        	<div id="widget_title"></div><div id="counter">ciao</div>
+        	
+        	<footer>
+        		<ul>
+        			<li class="sociallinks" id="itunes"><a href="#">ITunes</a></li>
+        			<li class="sociallinks" id="amazon"><a href="#">Amazon</a></li>
+        			
+        			<li class="sociallinks" id="youtube"><a href="#">YouTube</a></li>
+        			<li class="sociallinks" id="facebook"><a href="#">Facebook</a></li>
+        			<li class="sociallinks" id="loja"><a href="#">Loja</a></li>
+        			<li class="sociallinks" id="twitter"><a href="#">Twitter</a></li>
+        			
+        		</ul>
+        		<span>&copy;2007 - Todos os direitos reservados - Jessica Allossery.</span>
+        		<div id="widget_title"></div><div id="counter">ciao</div>
 				<div id="container">
 				<div id="holder">
 
@@ -126,16 +148,6 @@
 
 				</div>
 			</div>
-        	<footer>
-        		<ul>
-        			<li><a href="#">Inicio</a></li>
-        			<li><a href="#">Fotos e V&iacute;deos</a></li>
-        			<li><a href="#">Biografia</a></li>
-        			<li><a href="#">Show</a></li>
-        			<li><a href="#">M&uacute;sicas</a></li>
-        			<li><a href="#">Contato</a></li>
-        		</ul>
-        		<span>&copy;2007 - Todos os direitos reservados - Jessica Allossery.</span>
         	</footer>
         
         
