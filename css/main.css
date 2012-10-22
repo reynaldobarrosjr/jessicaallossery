@@ -95,26 +95,51 @@ textarea {
    ========================================================================== */
 
 #upper-menu {
-    background: url("../img/background-menu.png") no-repeat scroll center center transparent;
-    height: 239px;
+    background: url("../img/backgroundmenu.png") no-repeat scroll center center transparent;
+    height: 157px;
     position: fixed;
     width: 100%;
     z-index: 9999;
 }
 ul{margin:0px;}
 #upper-menu ul li {
-    display: inline;
-    height: 70px;
-    line-height: 70px;
-    list-style-type: none;
-    margin: 0;
-    padding-top: 40px;
-    position: relative;
-    top: 89px;
-    z-index: 99999;
+  display: inline;
+  height: 70px;
+  line-height: 70px;
+  list-style-type: none;
+  margin: 0 20px 0 0;
+  padding-top: 40px;
+  position: relative;
+  top: 89px;
+  z-index: 99999;
+}
+#mainmenu {
+  background: none repeat scroll 0 0 red;
+  bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 1240px;
+}
+#navsecundaria{position: relative;top: 300px;}
+#navsecundaria ul {
+  float: right;
+  line-height: 50px;
+  list-style: none outside none;
+  margin-right: 110px;
+  margin-top: -33px;
+  width: 260px;
+}
+#navsecundaria ul li{
+  float: left;
 }
 #bloco1{position: relative;float: left;}
-#bloco2{position: relative;float: right;margin-right: 10%;}
+#bloco2 {
+  bottom: 18px;
+  float: right;
+  margin-right: 10%;
+  position: relative;
+}
 #biografia {
     background: url("../img/links-menu-principal.png") no-repeat scroll 0 -11px transparent;
     height: 70px;
@@ -124,14 +149,21 @@ ul{margin:0px;}
     color: transparent;
     padding: 40px;
 }
-
+#buycd {
+  left: 840px;
+  position: relative;
+  right: 5%;
+  top: 200px;
+}
+#fotos h1{margin:0;
+text-indent: -999px;}
 #fotosevideos {
   background-attachment:scroll;
   background-clip:initial;
   background-color:transparent;
   background-image:url(http://localhost/jessicaallossery.com/img/links-menu-principal.png);
   background-origin:initial;
-  background-position:-126px -7px;
+  background-position:-126px -8px;
   background-repeat:no-repeat no-repeat;
   height:70px;
   overflow-x:hidden;
@@ -208,7 +240,7 @@ ul{margin:0px;}
   padding-top:40px;
 }
 
-#calendario{background: url(../img/background-shows.png) center no-repeat;height: 400px;padding-top:150px;margin-bottom:46px;}
+#calendario{background: url(../img/background-shows.png) center no-repeat;height: 400px;padding-top:150px;margin-bottom:-45px;}
 .data,.mes{color: #990033;font-size: 5.5em;text-align: center;}
 .data {
   display:block;
@@ -223,8 +255,8 @@ ul{margin:0px;}
 
 
 
-#content{margin:0px 0px 0px 0px;}
-#first_box{position:relative;background:url(../img/jessica-box-1.png);width: 100%;top: 145px;height: 700px; }
+#content{margin:0px 0px 0px 0px;width: 1265px; position: relative;margin-left: auto;margin-right: auto;}
+#first_box{position:relative;background:url(../img/jessica-box-1.png);width: 100%;top: 0px;height: 700px; }
 #fotos{height:575px;background:url(../img/background-photos.png);}
 
 #calendario ul li{display: inline;list-style-type: none;text-align: center;height: 250px;}
@@ -241,12 +273,13 @@ ul{margin:0px;}
 #biografia-texto {
     background: none repeat scroll 0 0 white;
     float: right;
-    font-size:1em;
+    font-size:0.9em;
     margin-right: 5%;
     margin-left: 5%;
     opacity: 0.73;
     position: relative;
     width: 55%;
+    margin-top: 150px;
 }
 #biografia-texto p{
 margin-left: auto;
@@ -262,16 +295,15 @@ h1#proximoshows {
     text-indent: -9999px;
     width: 463px;
 }
-#widget_title
-{
-	width: 442px;
-	padding-bottom: 3px;
-	padding-top: 3px;
-	padding-left: 10px;
-	font-size: 15px;
-	text-align: left;
-	background-color: #6F7986;
-	color: #FFF;
+#widget_title {
+  background-color: transparent;
+  color: transparent;
+  font-size: 15px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-top: 3px;
+  text-align: left;
+  width: 442px;
 }
 
 #container
@@ -293,13 +325,12 @@ h1#proximoshows {
 	left: 410px;
 }
 
-#counter
-{
-	
-	left: 425px;
-	top: 13px;
-	font-size: 13px;
-	color: #FFF;
+#counter {
+  color: #FFFFFF;
+  display: none;
+  font-size: 13px;
+  left: 425px;
+  top: 13px;
 }
 
 #holder
@@ -369,11 +400,11 @@ h1#proximoshows {
 
 
 footer {
-    background: url("../img/background-rodape.png") repeat scroll 0 0 transparent;
-    height: 156px;
-    margin-bottom: 0;
-    overflow: hidden;
-    position: relative;
+  background: url("../img/background-rodape.png") no-repeat scroll center 1px transparent;
+  height: 156px;
+  margin-bottom: 0;
+  overflow: hidden;
+  position: relative;
 }
 footer ul li{display: inline;
 height: 70px;
@@ -385,27 +416,33 @@ position: relative;
 top: 89px;
 z-index: 99999;}
 footer span {
-    float: right;
-    margin-right: 35px;
-    position: relative;
-    top: 25px;
+  float: right;
+  font-size: 0.7em;
+  margin-right: 35px;
+  position: relative;
+  top: 25px;
 }
-.sociallinks{background:url(../img/social-buttons.png) no-repeat; }
+.sociallinks{background:url(../img/social-buttons.png) 0px 0px no-repeat; }
+.sociallinks a {
+  bottom: 10px;
+  color: transparent;
+  position: relative;
+}
 #itunes {
-    background-position: 615px 16px;
+    background-position: 615px 0;
 }
 #amazon {
-    background-position: -105px 16px;
-}
+	background-position: -65px 0;}
+#amazon a {color: transparent;}
 #twitter {
-    background-position: -220px 16px;
+background-position: -208px 0;
 }
 #facebook {
-    background-position: -153px 16px;
+background-position: 0 0;
 }
 #youtube {
-    background-position: -47px 16px;
-}
+background-position: -133px 0;}
+#signature{font-size: 0.7em;color:#AE2328;}
 
 /* ==========================================================================
    Helper classes

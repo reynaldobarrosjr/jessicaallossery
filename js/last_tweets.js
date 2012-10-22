@@ -31,7 +31,7 @@ function loadTweets()
 					}
 				});
 				
-				$("#container").css("background","url(	./img/balao.png)");
+				$("#container").css("background","none");
 				addListeners();
 				startTimer();
 			}
