@@ -161,7 +161,7 @@ text-indent: -999px;}
   background-attachment:scroll;
   background-clip:initial;
   background-color:transparent;
-  background-image:url(http://localhost/jessicaallossery.com/img/links-menu-principal.png);
+  background-image:url(../img/links-menu-principal.png);
   background-origin:initial;
   background-position:-126px -8px;
   background-repeat:no-repeat no-repeat;
@@ -182,7 +182,7 @@ text-indent: -999px;}
   background-attachment:scroll;
   background-clip:initial;
   background-color:transparent;
-  background-image:url(http://localhost/jessicaallossery.com/img/links-menu-principal.png);
+  background-image:url(../img/links-menu-principal.png);
   background-origin:initial;
   background-position:-246px -7px;
   background-repeat:no-repeat no-repeat;
@@ -203,7 +203,7 @@ text-indent: -999px;}
   background-attachment:scroll;
   background-clip:initial;
   background-color:transparent;
-  background-image:url(http://localhost/jessicaallossery.com/img/links-menu-principal.png);
+  background-image:url(../img/links-menu-principal.png);
   background-origin:initial;
   background-position:-486px -0px;
   background-repeat:no-repeat no-repeat;
@@ -223,7 +223,7 @@ text-indent: -999px;}
   background-attachment:scroll;
   background-clip:initial;
   background-color:transparent;
-  background-image:url(http://localhost/jessicaallossery.com/img/links-menu-principal.png);
+  background-image:url(../img/links-menu-principal.png);
   background-origin:initial;
   background-position:-351px -0px;
   background-repeat:no-repeat no-repeat;
@@ -257,7 +257,7 @@ text-indent: -999px;}
 
 #content{margin:0px 0px 0px 0px;width: 1265px; position: relative;margin-left: auto;margin-right: auto;}
 #first_box{position:relative;background:url(../img/jessica-box-1.png);width: 100%;top: 0px;height: 700px; }
-#fotos{height:575px;background:url(../img/background-photos.png);}
+#fotos{height:575px;background:url(../img/bck-photos-jessica.png) fixed no-repeat;}
 
 #calendario ul li{display: inline;list-style-type: none;text-align: center;height: 250px;}
 #calendario ul li {
