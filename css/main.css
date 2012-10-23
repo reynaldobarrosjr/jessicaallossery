@@ -121,7 +121,7 @@ ul{margin:0px;}
   position: relative;
   width: 1240px;
 }
-#navsecundaria{position: relative;top: 300px;}
+#navsecundaria{position: relative;top: 250px;}
 #navsecundaria ul {
   float: right;
   line-height: 50px;
@@ -257,7 +257,7 @@ text-indent: -999px;}
 
 #content{margin:0px 0px 0px 0px;width: 1265px; position: relative;margin-left: auto;margin-right: auto;}
 #first_box{position:relative;background:url(../img/jessica-box-1.png);width: 100%;top: 0px;height: 700px; }
-#fotos{height:575px;background:url(../img/bck-photos-jessica.png) fixed no-repeat;}
+#fotos{height:575px;background:url(../img/bck-photos-jessica.png) scroll no-repeat;}
 
 #calendario ul li{display: inline;list-style-type: none;text-align: center;height: 250px;}
 #calendario ul li {
